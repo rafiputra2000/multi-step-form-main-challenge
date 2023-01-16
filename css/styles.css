@@ -1,0 +1,158 @@
+/* *******Element*********  */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(217, 100%, 97%);
+  font-family: "Ubuntu", sans-serif;
+}
+
+label {
+  display: block;
+}
+
+input {
+  padding: 15px;
+  width: 92%;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid hsl(229, 24%, 87%);
+}
+
+input:hover {
+  cursor: pointer;
+}
+
+Button {
+  background-color: hsl(243, 100%, 62%);
+  border-radius: 10px;
+  border: 1px solid hsl(243, 100%, 62%);
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+Button:hover {
+  background-color: hsl(213, 96%, 18%);
+  border: 1px solid hsl(213, 96%, 18%);
+}
+Button:active {
+  position: relative;
+  top: 1px;
+}
+
+/* ********Class Selector******* */
+
+.container-layout {
+  display: flex;
+  justify-content: center;
+  margin: 200px 200px;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px hsl(245, 75%, 52%, 0.25);
+  padding: 20px;
+  display: flex;
+}
+
+/* **********Class selector card right********** */
+
+.card-right p {
+  margin-top: 15px;
+  color: hsl(231, 11%, 63%);
+}
+
+.card-right {
+  padding: 45px;
+}
+
+.card-right .forms {
+  margin-top: 20px;
+}
+
+.card-right .forms .input-name,
+.input-email,
+.input-phone {
+  margin: 20px 0px;
+}
+
+.forms .button-layout {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-right h2 {
+  color: hsl(213, 96%, 18%);
+}
+
+/* **********Class selector card left********** */
+
+.card-left {
+  position: relative;
+}
+
+.card-left .text-layer {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-layer ul {
+  margin: 35px 0;
+  list-style-type: none;
+}
+
+.text-layer .list-step-1,
+.list-step-2,
+.list-step-3,
+.list-step-4 {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.list-step-1 a,
+.list-step-2 a,
+.list-step-3 a,
+.list-step-4 a {
+  border-radius: 50px;
+  border: 1px solid white;
+  width: 40px;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+}
+
+.list-step-1 .info-list-step-1,
+.list-step-2 .info-list-step-2,
+.list-step-3 .info-list-step-3,
+.list-step-4 .info-list-step-4 {
+  margin-left: 20px;
+}
+
+.active {
+  background-color: rgb(191, 226, 253);
+}
+
+.nav-step {
+  color: hsl(229, 24%, 87%);
+}
+
+.nav-title {
+  color: hsl(231, 100%, 99%);
+}
